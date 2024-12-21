@@ -26,7 +26,7 @@ class Config:
             )
             self.ALLOW_ACTION = config("ALLOW_ACTION", default=True, cast=bool)
             self.APP_ID = config("APP_ID", "24828197")
-            self.API_HASH = config("API_HASH", "d36e278e89ebeb900aeda4128d413a77"
+            self.API_HASH = config("API_HASH", "d36e278e89ebeb900aeda4128d413a77")
             self.ARIA2_PORT = config("ARIA2_PORT", default=6800, cast=int)
             self.BOT_TOKEN = config("BOT_TOKEN" , "7704881751:AAEUqg0mRoxooDrhCqjKrTD_JkdwIkWi_ro")
             self.CACHE_DL = config("CACHE_DL", default=False, cast=bool)
